@@ -14,13 +14,13 @@
 	
 	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 	<style>
-		#mybtn{
+		#myBtn{
 			display: none;
 			position:fixed;
-			z-index: 100;
-			right: 30px;
-			bottom: 30px;
-			background-color: cornflowerblue;
+			z-index: 150;
+			right: 60px;
+			bottom: 60px;
+			
 			border: none;
 			outline: none;
 				
@@ -29,7 +29,7 @@
 </head>
 	  
 <body>
-	<button onClick="topFunction()" id="mybtn" title="On Top">
+	<button onClick="topFunction()" id="myBtn" title="On Top">
 	<span class="iconify" data-icon="fa:angle-double-up" data-inline="false"></span>
 	</button>
   <nav class="navbar navbar-light bg-light static-top">
@@ -129,18 +129,22 @@
 					</div>
 					</div>
 				</div>
-			<div class=" testimonials text-center bg-light">
-				<div class="container">
+			<div class="container">
+			  <div class=" testimonials text-center bg-light">
+				
 					<h2 class="mb-5"> Game Có Tính Năng Gì?</h2>
 				  <div class="row">
-					<div></div>  
+					<div class="col-lg-4">
+						<div class="testmonial-item mx-auto">
+							<img src="hinh/3-34714_joshua-man-person-icon.png">
+					  </div>  
 				  </div>
 				</div>
 			</div>
 			</div>
     </div>	
    </div>
-      
+	</div>  
 	<script>
 	//Get the button
 var mybutton = document.getElementById("myBtn");
